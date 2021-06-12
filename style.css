@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 62.5%;
+}
+.box{
+    width: 40rem;
+    height: 60rem;
+    margin: auto;
+}
+input{
+    width: 100%;
+    padding: 2rem;
+}
+input#search-city{
+    margin: 0;
+    text-align: center;
+    outline: none;
+    border: none;
+    width: 120%;
+    left: -10%;
+    position: relative;
+    top: 1rem;
+    z-index: 2;
+    border-radius: 0.6rem;
+    font-size: 2.5rem;
+    box-shadow: 0 0 .6rem .6rem rgba(0, 0, 0, .12);
+}
+#content{
+    margin-top: 1.5rem;
+    height: 50rem;
+    overflow-y: scroll;
+}
+#content li{
+    background-color: #fff;
+    list-style-type: none;
+    border-bottom: .1rem solid #d8d8d8;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .14);
+    margin: 0;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.highlight{
+    background-color: #70f;
+    color: #fff;
+}
